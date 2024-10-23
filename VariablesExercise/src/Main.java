@@ -12,6 +12,51 @@ public class Main {
     }
 
     public static void conditionalsTask() {
+        //TASK 1
+        //Separated the nested if statement so the full logic is run
+        int x = 3, y= 5;
+        if (x >= 0) {
+            System.out.println("X is positive");
+        } else {
+            System.out.println("x is negative");
+        }
+        if ( y < x) {
+            System.out.println("y is less than x");
+        }
+        else {
+            System.out.println("y is greater than x");
+        }
+
+
+        //TASK2
+        //Changed = to == to check the statement inside brackets
+        int x2 = 7;
+        if (x2 == 0) {
+            System.out.println("x2 is zero");
+        } else {
+            System.out.println("x2 is not zero");
+        }
+
+        //Task3
+        //Expanded our logic
+        int x3 = 15, y3 = 24;
+        if ( x3 % 2 == 0 && y3 % 2 == 0){
+            System.out.println("x and y are even numbers");
+        } else if(x3 % 2 == 0){
+            System.out.println("x3 is even");
+        } else if(y3 % 2 == 0){
+            System.out.println("y3 is even");
+        } else {
+            System.out.println("x3 and y3 are odd");
+        }
+
+
+
+
+
+
+
+
         
     }
 
