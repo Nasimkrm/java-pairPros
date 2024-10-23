@@ -3,7 +3,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // Run variables task
+//        variablesTask();
 
+        // Run conditionals task
+        conditionalsTask();
+
+    }
+
+    public static void conditionalsTask() {
+        
+    }
+
+    public static void variablesTask() {
         //TASK 1
 
         //Create and concatenate strings
@@ -45,7 +57,5 @@ public class Main {
         int number2 = in.nextInt();
 
         System.out.println("The sum is: " + (number1 + number2));
-
-
     }
 }
